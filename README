@@ -1,0 +1,26 @@
+NAME
+    App::TailRabbit::Growl - Listen to a RabbitMQ exchange and emit the
+    messages to Growl.
+
+SYNOPSIS
+        tail_reabbit_growl --sticky --exchange_name firehose --routing_key # --rabbitmq_user guest --rabbitmq_user guest --rabbitmq_host localhost
+
+DESCRIPTION
+    Simple module to consume messages from a RabitMQ message queue.
+
+BUGS
+    Virtually no docs
+    All the same bugs as App::TailRabbit
+    Probably several more
+
+SEE ALSO
+    Net::RabbitFoot, Mac::Growl.
+
+AUTHOR
+    Tomas (t0m) Doran "<bobtfish@bobtfish.net>".
+
+COPYRIGHT & LICENSE
+    Copyright the above author(s).
+
+    Licensed under the same terms as perl itself.
+
